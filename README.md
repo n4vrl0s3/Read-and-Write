@@ -36,6 +36,21 @@ Writing to files is another essential operation that enables programs to store d
 
 - Python 3.x
 
+## Steps to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/Read-and-Write.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Read-and-Write
+   ```
+3. Run the Python scripts:
+   ```bash
+   python program.py
+   ```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
