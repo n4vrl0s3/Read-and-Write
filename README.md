@@ -40,7 +40,7 @@ Writing to files is another essential operation that enables programs to store d
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Read-and-Write.git
+   git clone https://github.com/guanshiyin28/Read-and-Write.git
    ```
 2. Navigate to the project directory:
    ```bash
