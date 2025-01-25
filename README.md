@@ -8,6 +8,8 @@ This repository aims to provide a comprehensive starting point for understanding
 
 The purpose of this repository is to help developers understand the fundamental concepts of file handling in Python. By providing clear examples and detailed explanations, this repository aims to make it easier for beginners and intermediate programmers to learn how to read from and write to files.
 
+<hr><br>
+
 ## Demonstration
 
 Here is a quick demo of what you can achieve with this repository:
@@ -44,9 +46,13 @@ if __name__ == "__main__":
 - Error handling for file operations
 - Detailed comments and explanations
 
+<hr><br>
+
 ## Technologies Used
 
 - Python 3.x
+
+<hr><br>
 
 ## Project Setup
 
@@ -60,6 +66,8 @@ To set up this project on your local machine, follow these steps:
    ```bash
    cd Read-and-Write
    ```
+   
+<hr><br>
 
 ## Steps to Run
 
@@ -70,6 +78,8 @@ To run the Python scripts provided in this repository, use the following command
 ```bash
 python program.py
 ```
+
+<hr><br>
 
 ## License
 
