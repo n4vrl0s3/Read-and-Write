@@ -1,12 +1,3 @@
-<div align=center>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=100:FF0000,20:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-
-![Jane Doe Banner](https://github.com/user-attachments/assets/6dce4a9a-c124-413d-816b-a0ea878a6cd9)
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=20:FF0000,100:F0F0F0&section=header&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
-
-</div>
-
 # Read and Write
 
 This repository aims to provide a comprehensive starting point for understanding and implementing basic file operations: reading from and writing to files. These operations are implemented in Python and serve as a great introduction to file handling for beginners and intermediate programmers.
@@ -17,19 +8,31 @@ This repository aims to provide a comprehensive starting point for understanding
 
 The purpose of this repository is to help developers understand the fundamental concepts of file handling in Python. By providing clear examples and detailed explanations, this repository aims to make it easier for beginners and intermediate programmers to learn how to read from and write to files.
 
-## Demo
+## Demonstration
 
 Here is a quick demo of what you can achieve with this repository:
 
 ```python
-# Reading from a file
-with open('example.txt', 'r') as file:
-    content = file.read()
-    print(content)
+# program.py
 
-# Writing to a file
-with open('example.txt', 'w') as file:
-    file.write('Hello, World!')
+def read_file(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+        print(content)
+
+def write_file(file_path, content):
+    with open(file_path, 'w') as file:
+        file.write(content)
+
+# Demonstration
+if __name__ == "__main__":
+    example_path = 'example.txt'
+
+    # Writing to a file
+    write_file(example_path, 'Hello, World!')
+
+    # Reading from a file
+    read_file(example_path)
 ```
 
 <hr><br>
@@ -70,7 +73,7 @@ python program.py
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE) file for details.
 
 <hr><br>
 
