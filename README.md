@@ -60,13 +60,13 @@ To set up this project on your local machine, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/guanshiyin28/Read-and-Write.git
+   git clone https://github.com/n4vrl0s3/Read-and-Write.git
    ```
 2. **Navigate to the project directory:**
    ```bash
    cd Read-and-Write
    ```
-   
+
 <hr><br>
 
 ## Steps to Run
@@ -88,7 +88,7 @@ This project is licensed under the Apache-2.0 License. See the [LICENSE](LICENSE
 <hr><br>
 
 <div align="center">
-   <a href="https://www.instagram.com/guanshiyin_/">
+   <a href="https://www.instagram.com/n4vrl0s3/">
       <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=100:393E46,20:F7F7F7&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
    </a>
 </div>
